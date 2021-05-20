@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>day3 javascript practice </head>/<br></head>
+ <body>
+    <script>
+        var  a11=12;
+        function foo(a){
+            document.write(a11);
+            var a11=13;
+        }
+        document.write(a11);
+        const arr2=[1,2,3,4];
+        var str=new String("john");
+        var str2="john";
+        document.write(str== str2);
+       // true
+        //array 
+var a1=[1,2,3];
+var a2=[1,2,3];
+document.write(a1 === a2);
+//false
+
+document.write(a1 == a2);
+//false
+
+
+
+var copyofa1= a1;
+document.write(a1 === copyofa1);
+//true
+
+document.write(a1 == copyofa1);
+
+//true()
+//type of operator
+typeof 10;
+var y=90000;
+for(i=0;i<3;i++){
+    y=y+i;
+}
+document.write(y);
+
+        //if property name is numeric we cant use .notation.
+        document.write(arr2);
+        //delete element in array
+        delete arr2[0];
+document.write(arr2);
+      var today=new Date();
+
+      document.write(today);
+
+        document.write("yyyyy");
+
+       var emp= new Object();
+
+       emp.id="01";
+
+       document.write(emp.id);
+function a(){
+  document.write("dddd");
+   return  function(b){
+        document.write(b+" ../...");
+    }
+}
+a()("swaga");
+// array in javascript
+ var arr=["swag","ghgh","uiuu"]
+ for(i=0;i<arr.length;i++){
+     document.write(arr[i]);
+ }
+ //concat
+ var arr1= ["sunil","anil","lali"];
+ var result= arr.concat(arr1);
+ document.writeln(result);
+
+ {
+     k=90;
+ }
+ document.write(k);
+ // k is an global variable
+ var str3=document.getElementById("num").value;
+
+
+
+
+    </script> 
+
+<form action="form1">
+    <input type="text" id="num" name="number" value=67></input>
+    <input type="submit" value="submit"></input>
+</form>
+ </body>
+ </html>
+   
